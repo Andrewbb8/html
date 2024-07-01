@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/x-icon" href="./downloads/Favicon.png" />
+    <title>cat Advertisement</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      /* Style the header */
+      header {
+        background-color: #666;
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+        color: cyan;
+      }
+
+      /* Create two columns/boxes that floats next to each other */
+      nav {
+        float: left;
+        width: 30%;
+        height: 300px;
+        background: #00bbff;
+        padding: 20px;
+      }
+
+      /* Style the list inside the menu */
+      nav ul {
+        list-style-type: disc;
+        padding: 0;
+      }
+
+      article {
+        float: left;
+        padding: 20px;
+        width: 70%;
+        height: 300px;
+        background-color: #ff0000;
+        color: white;
+      }
+
+      /* Clear floats after the columns */
+      section::after {
+        content: '';
+        display: table;
+        clear: both;
+      }
+
+      /* Style the footer */
+      footer {
+        background-color: #636363;
+        padding: 10px;
+        text-align: center;
+        color: white;
+        font-size: large;
+      }
+
+      @media (max-width: 600px) {
+        nav,
+        article {
+          width: 100%;
+          height: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>Get a cat!</h2>
+      <p style="font-size: medium">Advertisement</p>
+    </header>
+
+    <section>
+      <nav>
+        <h1><ins>Get a cat! </ins></h1>
+        <p>Cats are wonderful pets. So you should get one today!</p>
+        <img
+          src="https://png.pngtree.com/png-clipart/20230511/ourmid/pngtree-isolated-cat-on-white-background-png-image_7094927.png"
+          alt="cat photo"
+          width="150px"
+        />
+      </nav>
+      <article>
+        <h1><mark>Cats</mark></h1>
+        <p>
+          The cat, commonly referred to as the domestic cat or house cat, is a
+          small domesticated carnivorous mammal. It is the only domesticated
+          species of the feline family. Everyone knows that cats are very
+          popular in houses. They make great pets and are also easy to take care
+          of. They go to their litter boxes to pee, they don't need to go on
+          walks every day, and they don't lick you.<br /><br />
+          This reminds me of a funny story. Me and My sister were going to our
+          friends house. I got there first so I started playing with my friend.
+          After Julia, my sister got there, my friend's dog jumped on Julia and
+          licked her face. Then when she got home, Julia started to hate dogs
+          and started to like cats.
+        </p>
+      </article>
+    </section>
+
+    <footer>
+      <p>
+        Why not get a cat today!<br /><br />
+        Just call:123-456-789.
+      </p>
+      <p>
+        <a
+          href="file:///C:/Projects/Math/KidsCoding/html/Cats.html"
+          target="_blank"
+          >Click Here</a
+        >
+        to see more pictures of cats!
+      </p>
+    </footer>
+    <p>
+      <a href="file:///C:/Projects/Math/KidsCoding/html/webpages_site.html"
+        >Click here</a
+      >
+      to see my other webpages!
+    </p>
+  </body>
+</html>
