@@ -3,23 +3,18 @@
   <head>
     <link rel="icon" type="image/x-icon" href="./downloads/Favicon.png" />
     <title>Changing images</title>
-    <style>
-      a:link,
-      a:visited {
-        background-color: #f44336;
-        color: white;
-        padding: 2px 2px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-      }
-
-      a:hover,
-      a:active {
-        background-color: red;
-      }
-    </style>
-  </head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  <style>
+    a{
+      text-decoration: none;
+      color: gray;
+    }
+  </style>  </head>
   <body>
     <h1>Resize the window to change the picture.</h1>
     <picture>
@@ -57,11 +52,6 @@
         width="200px"
       />
     </picture>
-    <p>
-      <a href="file:///D:/Projects/Andrew/html/webpages_site.html"
-        >Click here</a
-      >
-      to see my other webpages!
-    </p>
+    <button type="button" class="btn btn-info"><a href="webpages_site.html">Click here to see my other webpages</a></button>
   </body>
 </html>
